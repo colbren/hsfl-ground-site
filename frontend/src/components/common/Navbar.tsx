@@ -59,7 +59,7 @@ export default function Navbar() {
                         fontWeight: 600,
                     }}
                 >
-                    HSFL Ground Station Network
+                    HSFL Ground Site
                 </Typography>
 
                 <Box sx={{ flexGrow: 1 }} />

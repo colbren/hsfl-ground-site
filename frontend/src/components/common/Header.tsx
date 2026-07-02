@@ -24,7 +24,7 @@ export default function Header() {
                     variant="h6"
                     component="div"
                 >
-                    HTS Ground Station Network
+                    HTS Ground Site
                 </Typography>
             </Toolbar>
         </AppBar>

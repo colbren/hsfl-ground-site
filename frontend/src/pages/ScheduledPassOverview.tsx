@@ -134,7 +134,7 @@ export default function ScheduledPassOverview() {
     useEffect(() => {
         axios
             .get(
-                "http://192.168.150.104:8001/api/scheduled-passes/"
+                "http://192.168.150.110:8001/api/scheduled-passes/"
             )
             .then((res) => {
                 setPasses(res.data);

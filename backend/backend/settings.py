@@ -63,10 +63,12 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5174",
+    "http://192.168.150.110:5174"
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5174",
+    "http://192.168.150.110:5174"
 ]
 
 SESSION_COOKIE_SAMESITE = "Lax"

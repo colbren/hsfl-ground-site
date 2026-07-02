@@ -33,11 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     "rest_framework",
     "corsheaders",
-    "satellites",
     "groundstations",
-    "scheduler",
-    "passthrough",
-    "tracking",
     "authentication",
     'django.contrib.admin',
     'django.contrib.auth',
@@ -61,11 +57,11 @@ MIDDLEWARE = [
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    "http://localhost:5174",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:5173",
+    "http://localhost:5174",
 ]
 
 SESSION_COOKIE_SAMESITE = "Lax"

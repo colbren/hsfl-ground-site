@@ -21,11 +21,6 @@ from django.urls import include, path
 urlpatterns = [
     path("", lambda request: HttpResponse("Backend is running")),
     path("admin/", admin.site.urls),
-    path("api/", include("satellites.urls")),
     path("api/", include("groundstations.urls")),
-    path("api/", include("scheduler.urls")),
-    path("api/", include("passes.urls")),
-    path("api/passthrough/", include("passthrough.urls")),
-    path("api/tracking/", include("tracking.urls")),
     path("api/auth/", include("authentication.urls")),
 ]

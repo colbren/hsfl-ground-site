@@ -23,28 +23,8 @@ export default function Sidebar() {
             path: "/",
         },
         {
-            title: "Satellites",
-            path: "/satellites",
-        },
-        {
             title: "Ground Stations",
             path: "/groundstations",
-        },
-        {
-            title: "Scheduler",
-            path: "/scheduler",
-        },
-        {
-            title: "Pass History",
-            path: "/history",
-        },
-        {
-            title: "Pass Through",
-            path: "/passthrough",
-        },
-        {
-            title: "Satellite Tracking",
-            path: "/tracking",
         },
     ];
 

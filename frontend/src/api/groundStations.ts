@@ -12,7 +12,7 @@ export interface GroundStation {
 
 export async function getGroundStations() {
     const response = await axios.get(
-        "http://localhost:8000/api/groundstations/"
+        "http://localhost:8001/api/groundstations/"
     );
 
     return response.data;

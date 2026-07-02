@@ -51,7 +51,7 @@ export function AuthProvider({
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch("http://localhost:8000/api/auth/me/", {
+        fetch("http://localhost:8001/api/auth/me/", {
             credentials: "include",
         })
             .then((res) => res.json())
@@ -75,7 +75,7 @@ export function AuthProvider({
         password: string
     ) {
         const res = await fetch(
-            "http://localhost:8000/api/auth/login/",
+            "http://localhost:8001/api/auth/login/",
             {
                 method: "POST",
                 credentials: "include",
@@ -103,7 +103,7 @@ export function AuthProvider({
 
     async function logout() {
         await fetch(
-            "http://localhost:8000/api/auth/logout/",
+            "http://localhost:8001/api/auth/logout/",
             {
                 method: "POST",
 

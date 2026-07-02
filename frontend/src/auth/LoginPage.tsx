@@ -80,7 +80,7 @@ export default function LoginPage() {
                             mr: 2,
                         }}
                     />
-                    HSFL Ground Station
+                    HSFL Ground Station Site Software
                 </Typography>
 
                 <TextField

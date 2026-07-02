@@ -26,25 +26,10 @@ export default function Sidebar() {
             title: "Ground Stations",
             path: "/groundstations",
         },
-    ];
-
-    const networkPages = [
         {
-            title: "Network Dashboard",
-            path: "/network",
-        },
-        {
-            title: "Users",
-            path: "/users",
-        },
-        {
-            title: "Analytics",
-            path: "/analytics",
-        },
-        {
-            title: "Settings",
-            path: "/settings",
-        },
+            title: "Scheduled Passes",
+            path: "/scheduled-passes",
+        }
     ];
 
     return (

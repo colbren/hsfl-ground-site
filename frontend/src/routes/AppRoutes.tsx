@@ -9,6 +9,7 @@ import DashboardLayout from "../layouts/DashboardLayout";
 
 import DashboardPage from "../pages/DashboardPage";
 import GroundStationsPage from "../pages/GroundStationsPage";
+import ScheduledPassOverview from "../pages/ScheduledPassOverview";
 
 import LoginPage from "../auth/LoginPage";
 import ProtectedRoute from "../auth/ProtectedRoute";
@@ -38,6 +39,11 @@ export default function AppRoutes() {
                     <Route
                         path="/groundstations"
                         element={<GroundStationsPage />}
+                    />
+
+                    <Route
+                        path="/scheduled-passes"
+                        element={<ScheduledPassOverview />}
                     />
 
                 </Route>

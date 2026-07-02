@@ -22,5 +22,6 @@ urlpatterns = [
     path("", lambda request: HttpResponse("Backend is running")),
     path("admin/", admin.site.urls),
     path("api/", include("groundstations.urls")),
+    path("api/", include("passes.urls")),
     path("api/auth/", include("authentication.urls")),
 ]

@@ -1,1 +1,1 @@
-# HSFL Ground Station Client + Network Provider
+# HSFL Ground Site Software
